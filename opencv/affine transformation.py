@@ -25,5 +25,7 @@ cv2.imshow('original', img)
 cv2.imshow('affine', img2)
 cv2.waitKey()
 
-
+'''
+需要注意的是， 在转角度的时候会发生偏移，因此需要用第12行的码进行位置调整
+'''
 
