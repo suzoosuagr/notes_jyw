@@ -14,8 +14,7 @@ M[:,-1] += np.array([(rows - cols)/2 , (cols - rows)/2]).T
 #
 img2 = cv2.warpAffine(img,M2,(cols,rows))
 #
-#
-#
+
 print(M)
 
 print(img.shape)
